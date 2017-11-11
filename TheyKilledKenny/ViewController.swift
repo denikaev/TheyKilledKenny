@@ -10,6 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    var p = 3.14
     
     //123
     //изменения для тестовой ветки
