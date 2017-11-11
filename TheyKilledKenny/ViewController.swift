@@ -12,6 +12,7 @@ class ViewController: UIViewController {
 
     
     //123
+    //изменения для тестовой ветки
     
     override func viewDidLoad() {
         super.viewDidLoad()
