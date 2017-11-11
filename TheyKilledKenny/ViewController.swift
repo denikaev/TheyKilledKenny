@@ -10,7 +10,9 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    
+    let killKenny = true
+    let kdnf = 233
+ 
     //123
     let aaa = "max commit"
     
@@ -24,6 +26,7 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    
 
 }
 
