@@ -12,6 +12,7 @@ class ViewController: UIViewController {
 
     
     //123
+    let aaa = "max commit"
     
     override func viewDidLoad() {
         super.viewDidLoad()
