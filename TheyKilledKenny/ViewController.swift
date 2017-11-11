@@ -11,6 +11,7 @@ import UIKit
 class ViewController: UIViewController {
 
     let killKenny = true
+    let kdnf = 233
  
     //123
     
