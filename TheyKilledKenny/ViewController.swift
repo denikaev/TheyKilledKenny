@@ -10,7 +10,8 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    
+    let killKenny = true
+ 
     //123
     
     override func viewDidLoad() {
@@ -23,6 +24,7 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    
 
 }
 
