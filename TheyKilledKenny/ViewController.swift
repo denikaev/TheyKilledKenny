@@ -22,7 +22,7 @@ class ViewController: UIViewController {
         let boardCenter = self.view.center.y
         let gameBoardViewRect = CGRect(x: 10, y: boardCenter - (boardSide / 2), width: boardSide, height: boardSide)
         let gameBoardView = UIView(frame: gameBoardViewRect)
-        gameBoardView.backgroundColor = #colorLiteral(red: 0.2588235438, green: 0.7568627596, blue: 0.9686274529, alpha: 1)
+        gameBoardView.backgroundColor = #colorLiteral(red: 0.4745098054, green: 0.8392156959, blue: 0.9764705896, alpha: 1)
         self.view.addSubview(gameBoardView)
         
         
@@ -34,7 +34,7 @@ class ViewController: UIViewController {
         
         
         //Функция для создания фишек
-        func newViewForPiece(count: Int) {
+        func createViewForPiece(count: Int) {
             
             for i in 1...count {
                 let pieceSide = Int((boardSide - 25) / 4)
@@ -57,13 +57,13 @@ class ViewController: UIViewController {
                 }
                 let gamePieceRect = CGRect(x: xPoint, y: yPoint, width: pieceSide, height: pieceSide)
                 let gamePieceView = UIView(frame: gamePieceRect)
-                gamePieceView.backgroundColor = #colorLiteral(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)
+                gamePieceView.backgroundColor = #colorLiteral(red: 0.9001861215, green: 0.9608508945, blue: 0.9735675454, alpha: 1)
                 gameBoardView.addSubview(gamePieceView)
             }
         }
         
 
-        newViewForPiece(count: 16)
+        createViewForPiece(count: 16)
         
     }
     
