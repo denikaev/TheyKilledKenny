@@ -36,7 +36,7 @@
             </objects>
             <point key="canvasLocation" x="-417" y="-55"/>
         </scene>
-        <!--Item-->
+        <!--Best-->
         <scene sceneID="eG4-46-VlG">
             <objects>
                 <viewController id="MGz-TE-NUs" customClass="ViewControllerFirst" customModule="TheyKilledKenny" customModuleProvider="target" sceneMemberID="viewController">
@@ -75,13 +75,13 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="8yH-4q-CXD"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="EjC-7f-IS8"/>
+                    <tabBarItem key="tabBarItem" title="Best" image="berry" id="EjC-7f-IS8"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9Hd-xV-gnL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1044" y="752"/>
         </scene>
-        <!--Item-->
+        <!--Time-->
         <scene sceneID="And-bI-1HE">
             <objects>
                 <viewController id="YIZ-JH-BhY" customClass="ViewControllerSecond" customModule="TheyKilledKenny" customModuleProvider="target" sceneMemberID="viewController">
@@ -120,13 +120,13 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="vrO-Yk-kF1"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="ccN-ry-CM9"/>
+                    <tabBarItem key="tabBarItem" title="Time" image="berry" id="ccN-ry-CM9"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Jfd-hy-S4f" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-418.39999999999998" y="751.57421289355329"/>
         </scene>
-        <!--Item-->
+        <!--Killer-->
         <scene sceneID="gCm-a1-4q1">
             <objects>
                 <viewController id="imU-5R-nJ4" customClass="ViewControllerThird" customModule="TheyKilledKenny" customModuleProvider="target" sceneMemberID="viewController">
@@ -137,24 +137,26 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="jdun2" translatesAutoresizingMaskIntoConstraints="NO" id="gUH-Qu-7BS">
                                 <rect key="frame" x="0.0" y="20" width="375" height="598"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="90o-U7-s9B">
-                                <rect key="frame" x="176" y="20" width="173" height="47"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="25"/>
-                                <state key="normal" title="Ждун Userame">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                    <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                            </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="PHL-eR-gXA">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PHL-eR-gXA">
                                 <rect key="frame" x="16" y="225" width="343" height="393"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <mutableString key="text">10 ноября 2017 года был вполне себе обыкновенный день. Смеркалось. И тут, естественно, абсолютно внезапно, стартовала олимпиада. Наша команда была невероятно сильна и состояла исключительно из TeamLeadSeniors. Поэтому мы взяли время на изобретение концепта, дабы взорвать олимпиаду своим царским приложением. Спустя сутки мы не без усилий смогли создать на гитхабе общий проект и приступить, собственно, к разработке. Наш гениальный план заключался в написании игры в 15(пятнашки) с некоторыми секретными нестандартными фичами и багами, которая бы покорила Олимп и осыпала нас наградами, славой, а может еще и женщинами. 3333 рубля ведь. Хватает. Я узнавал.
+Но суровая действительность, отсутствие знаний в некоторых областях программирования, а также потребность в сне и приеме пищи не позволила нам реализовать победную стратегию и оставить соперников далеко позади в этой гонке умов. Поэтому представляю вам ждуна! Он, таки, отличный убийца времени. Ну и три экрана налицо.
+Спасибо Создателю Олимпиады. На самом деле опыт попытки разработки был весьма полезен и позволил научиться чему-то и понять как идет совместная разработка. </mutableString>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="24"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="90o-U7-s9B">
+                                <rect key="frame" x="-8" y="20" width="391" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="23"/>
+                                <state key="normal" title="Team Lead Senior Swift Dev">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -165,7 +167,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="vDh-AX-jXE"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="LVc-am-lnK"/>
+                    <tabBarItem key="tabBarItem" title="Killer" image="berry" id="LVc-am-lnK"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pmS-E7-IGj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -173,6 +175,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="berry" width="20" height="25"/>
         <image name="jdun" width="600" height="894"/>
         <image name="jdun1" width="480" height="434"/>
         <image name="jdun2" width="740" height="439"/>
