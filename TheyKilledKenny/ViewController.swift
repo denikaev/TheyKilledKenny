@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UIViewController, CAAnimationDelegate {
     
-    
+    //TEST
     var gradientLayer: CAGradientLayer! {
         didSet {
             gradientLayer.startPoint = CGPoint(x: 0, y: 0) // 0 0 левый верхний угол
