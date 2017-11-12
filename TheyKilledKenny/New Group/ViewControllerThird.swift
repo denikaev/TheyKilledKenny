@@ -1,19 +1,18 @@
 //
-//  UITabBarViewController.swift
+//  ViewControllerThird.swift
 //  TheyKilledKenny
 //
-//  Created by Maxim Dvortsov on 12.11.2017.
+//  Created by Vladislav Ilyenko on 12.11.2017.
 //  Copyright © 2017 Maxim Dvortsov. All rights reserved.
 //
 
 import UIKit
 
-class UITabBarViewController: UITabBarController {
+class ViewControllerThird: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        //self.tabBar.barTintColor = UIColor.clear
-        self.tabBar.tintColor = UIColor.black
+
         // Do any additional setup after loading the view.
     }
 
