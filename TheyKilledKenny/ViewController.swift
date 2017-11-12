@@ -17,6 +17,24 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        
+        //Создаем вьюшку над полем типа HEADER (таймер, имя и прочая херня)
+        
+        let headerViewRect = CGRect(x: 0, y: 0, width: self.view.bounds.size.width, height: 100)
+        let headerView = UIView(frame: headerViewRect)
+        headerView.backgroundColor = #colorLiteral(red: 0.4745098054, green: 0.8392156959, blue: 0.9764705896, alpha: 1)
+        self.view.addSubview(headerView)
+        
+        //Текстовый лейбл с именем?
+        let nameLabelRect = CGRect(x: 5, y: 5, width: 200, height: 50)
+        let nameLabel = UILabel(frame: nameLabelRect)
+        nameLabel.center = headerView.center
+        nameLabel.center.y = headerView.center.y + 10
+        nameLabel.textAlignment = .center
+        nameLabel.text = "Мэйби тут имя игрока"
+        headerView.addSubview(nameLabel)
+        
+        
         // Создаем вьюшку поля
         let boardSide = self.view.bounds.size.width - 20
         let boardCenter = self.view.center.y
@@ -27,9 +45,12 @@ class ViewController: UIViewController {
         
         
         
+        
+        
+        // Надо бы наверное для фишки сделать структуру или класс
         struct Piece {
-            let index: Int
-            let coordinates: [Int] //[1, 1] для единицы, например... [4, 3] для 15
+            var index: Int
+            var coordinates: [Int] //[1, 1] для единицы, например... [4, 3] для 15
         }
         
         
@@ -57,12 +78,27 @@ class ViewController: UIViewController {
                 }
                 let gamePieceRect = CGRect(x: xPoint, y: yPoint, width: pieceSide, height: pieceSide)
                 let gamePieceView = UIView(frame: gamePieceRect)
-                gamePieceView.backgroundColor = #colorLiteral(red: 0.9001861215, green: 0.9608508945, blue: 0.9735675454, alpha: 1)
+                
+                //Тэг фишки
+                gamePieceView.tag = i
+                gamePieceView.backgroundColor = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)
                 gameBoardView.addSubview(gamePieceView)
+                
+                // отображаемый номер фишки
+                let numberRect = CGRect(x: 0, y: 0, width: pieceSide, height: pieceSide)
+                let numberLabel = UILabel(frame: numberRect)
+                
+                //на фишке 16 номер не показываем
+                if i < 16 {
+                    numberLabel.text = "\(i)"
+                }
+                numberLabel.textAlignment = .center
+                gamePieceView.addSubview(numberLabel)
+                
             }
         }
         
-
+        
         createViewForPiece(count: 16)
         
     }

@@ -13,6 +13,7 @@
 		50DF19231FB77CE50088261C /* TheyKilledKenny.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 50DF19211FB77CE50088261C /* TheyKilledKenny.xcdatamodeld */; };
 		50DF19251FB77CE50088261C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50DF19241FB77CE50088261C /* Assets.xcassets */; };
 		50DF19281FB77CE50088261C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50DF19261FB77CE50088261C /* LaunchScreen.storyboard */; };
+		50DF19301FB7BC2A0088261C /* UITabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50DF192F1FB7BC2A0088261C /* UITabBarViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		50DF19241FB77CE50088261C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		50DF19271FB77CE50088261C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		50DF19291FB77CE50088261C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50DF192F1FB7BC2A0088261C /* UITabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITabBarViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				50DF191A1FB77CE50088261C /* AppDelegate.swift */,
 				50DF191C1FB77CE50088261C /* ViewController.swift */,
+				50DF192F1FB7BC2A0088261C /* UITabBarViewController.swift */,
 				50DF191E1FB77CE50088261C /* Main.storyboard */,
 				50DF19241FB77CE50088261C /* Assets.xcassets */,
 				50DF19261FB77CE50088261C /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50DF19301FB7BC2A0088261C /* UITabBarViewController.swift in Sources */,
 				50DF191D1FB77CE50088261C /* ViewController.swift in Sources */,
 				50DF191B1FB77CE50088261C /* AppDelegate.swift in Sources */,
 				50DF19231FB77CE50088261C /* TheyKilledKenny.xcdatamodeld in Sources */,
