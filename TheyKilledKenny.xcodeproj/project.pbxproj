@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		37DCE3F81FB83D07002C69CA /* Piece.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37DCE3F71FB83D07002C69CA /* Piece.swift */; };
 		50DF191B1FB77CE50088261C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50DF191A1FB77CE50088261C /* AppDelegate.swift */; };
 		50DF191D1FB77CE50088261C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50DF191C1FB77CE50088261C /* ViewController.swift */; };
 		50DF19201FB77CE50088261C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50DF191E1FB77CE50088261C /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		37DCE3F71FB83D07002C69CA /* Piece.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Piece.swift; sourceTree = "<group>"; };
 		50DF19171FB77CE50088261C /* TheyKilledKenny.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheyKilledKenny.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50DF191A1FB77CE50088261C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		50DF191C1FB77CE50088261C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 			children = (
 				50DF191A1FB77CE50088261C /* AppDelegate.swift */,
 				50DF191C1FB77CE50088261C /* ViewController.swift */,
+				37DCE3F71FB83D07002C69CA /* Piece.swift */,
 				50DF192F1FB7BC2A0088261C /* UITabBarViewController.swift */,
 				50DF191E1FB77CE50088261C /* Main.storyboard */,
 				50DF19241FB77CE50088261C /* Assets.xcassets */,
@@ -144,6 +147,7 @@
 			files = (
 				50DF19301FB7BC2A0088261C /* UITabBarViewController.swift in Sources */,
 				50DF191D1FB77CE50088261C /* ViewController.swift in Sources */,
+				37DCE3F81FB83D07002C69CA /* Piece.swift in Sources */,
 				50DF191B1FB77CE50088261C /* AppDelegate.swift in Sources */,
 				50DF19231FB77CE50088261C /* TheyKilledKenny.xcdatamodeld in Sources */,
 			);
